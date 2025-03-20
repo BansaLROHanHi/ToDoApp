@@ -8,7 +8,7 @@ def add_task(task):
 
     print(f'Task "{task}" added.')
 def delete_task(task):
-    delete(task)
+    task.delete(task)
     print(f'Task "{task}" deleted.')
     
 def list_tasks():
