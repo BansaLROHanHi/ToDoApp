@@ -7,7 +7,10 @@ def add_task(task):
     tasks.append(task)
 
     print(f'Task "{task}" added.')
-
+def delete_task(task):
+    task.delete(task)
+    print(f'Task "{task}" deleted.')
+    
 def list_tasks():
 
     if not tasks:
